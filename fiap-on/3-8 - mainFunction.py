@@ -8,8 +8,9 @@ print_list(inventory)
 
 print("Pesquisando")
 search_items(inventory)
+
 print("Alterando")
-down_value_items(inventory, 20)
+down_value_items(inventory)
 
 print("Excluindo")
 print(descart_items(inventory))

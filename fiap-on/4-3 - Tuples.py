@@ -5,6 +5,8 @@ while "S" == answer:
        input("Digite os dois últimos octetos: "))] = input("Nome da máquina: ")
     answer = input("Digite <S> para continuar: ").upper()
 
+print(ips)
+
 print("Exibindo ip´s: ")
 for ip in ips.keys():
     print(ip[0]+"."+ip[1])

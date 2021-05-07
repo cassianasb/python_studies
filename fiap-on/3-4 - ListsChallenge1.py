@@ -11,7 +11,7 @@ while "S" == answer:
     departaments.append(input("Departamento: "))
     answer = input("Digite 'S' para continuar: ").upper()
 
-deprecieted = input("Digite oequipamento a ser depreciado: "))
+deprecieted = input("Digite oequipamento a ser depreciado: ")
 for index in range(0, len(equipaments)):
     if deprecieted == equipaments[index].upper:
         new_value = values[index] * 0.9
