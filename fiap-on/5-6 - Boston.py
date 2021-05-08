@@ -1,4 +1,4 @@
-with open("economic-indicators.csv", "r") as indicators:
+with open("indicators.csv", "r") as indicators:
     internationalFlights = 0
     biggerDate = 0
     passangers = 0
